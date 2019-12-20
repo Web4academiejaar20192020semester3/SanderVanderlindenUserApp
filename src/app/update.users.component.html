@@ -19,11 +19,12 @@
          value="{{userChosen.lastName}}">
 </p>
 <p>
-  <label for="gender">Gender:</label>
-  <input [(ngModel)]="userChosen.gender"
-         type="text" id="gender"
-         name="gender"
-         value="{{userChosen.gender}}">
+  <label for="gender">Gender</label>
+  <select [(ngModel)]="userChosen.gender" id="gender" name="gender" value="{{userChosen.gender}}">>
+    <option name="m">Male</option>
+    <option name="f">Female</option>
+    <option name="o">Other</option>
+  </select>
 </p>
 <p>
   <label for="age">Age:</label>
