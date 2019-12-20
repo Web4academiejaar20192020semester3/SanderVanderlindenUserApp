@@ -1,0 +1,18 @@
+<h2>Users</h2>
+<table>
+  <tr>
+    <th>Last name</th>
+    <th>First name</th>
+    <th>Email</th>
+    <th>Age</th>
+    <th>Gender</th>
+  </tr>
+  <tr *ngFor="let user of users" (click)="setUser(user)">
+    <td>{{user.lastName}}</td>
+    <td>{{user.firstName}}</td>
+    <td>{{user.email}}</td>
+    <td>{{user.age}}</td>
+    <td>{{user.gender}}</td>
+  </tr>
+</table>
+<app-update-users [userChosen]="userSet" [serviceUpdate]="userService"></app-update-users>

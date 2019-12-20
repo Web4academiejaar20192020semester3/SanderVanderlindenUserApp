@@ -1,0 +1,18 @@
+table {
+  max-width: 100%;
+  background-color: transparent;
+  border-top: 2px solid #666;
+  border-bottom: 2px solid #666;
+  border-collapse: collapse;
+  margin-bottom: 32px;
+}
+
+th {
+  padding: 10px 40px 10px 5px;
+  border-bottom: 1px solid #666;
+  background-color: #eee;
+}
+
+td {
+  padding: 10px 40px 10px 5px;
+}

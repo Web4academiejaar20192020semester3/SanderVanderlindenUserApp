@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+
+body {
+  background-color: #f1f1f1;
+  font-size: 16px;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  text-align: left;
+}
+
+header,main, footer {
+  margin: 10px auto;
+  width: 80%;
+  max-width: 800px;
+  display: block;
+}
